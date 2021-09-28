@@ -19,7 +19,15 @@ article .article-title{
 	font-family: Verdana;
 	display: inline-block;
 }
-
+a{
+	text-decoration: none;
+}
+a:hover {
+	text-decoration: underline;
+}
+p::first-letter {
+ font-size: 55px;
+}
 .happy{
 	width : 49%;
 	float : left;
