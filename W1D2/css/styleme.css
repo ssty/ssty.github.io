@@ -1,0 +1,31 @@
+header{
+	background-repeat: no-repeat; background-size: cover;
+	background-image: url('https://ssty.github.io/image/DSC_0047_1.JPG');
+	}
+h1{
+	font-family : "Arial Black";
+}	
+header .my-detail{
+	color: brown;
+	display: inline-block;
+	background-color: mintcream;
+}
+body{
+	background-color: lightseagreen;
+	font-family : "Trebuchet MS";
+	font-size : 20px;
+}
+article .article-title{
+	font-family: Verdana;
+	background-color: mintcream;
+	display: inline-block;
+}
+
+.happy{
+	width : 49%;
+	float : left;
+}
+.sad{
+	width : 50%;
+	float : right;
+}
