@@ -1,0 +1,27 @@
+body{
+     background-color: lightseagreen;
+     font-family : "Trebuchet MS";
+     font-size : 20px;
+}
+ p, h1, h2{
+     margin: 0;
+     padding: 0;
+}
+ #circle {
+     background-position: center;
+     border-radius:50% 50% 50% 50%;
+     width:250px;
+     height:250px;
+}
+ header{
+     background-repeat: no-repeat;
+     background-size: cover;
+     background-image: url('https://ssty.github.io/image/DSC_0047_1.JPG');
+     display: flex;
+     padding : 2%;
+     padding-left: 2%;
+}
+ header .title-content{
+     color: white;
+     padding: 5%;
+}
