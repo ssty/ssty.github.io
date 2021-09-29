@@ -1,0 +1,48 @@
+.{
+	font-family : "Georgia";
+	color : #404040;
+	font-size : 11pt;
+}
+h1{
+	font-family : "Lucida sans-serif";
+	background-color : #F0F0F0;
+	color : #A4A400 ;
+	text-align : center;
+	font-size : 22pt;
+	text-decoration : underline;
+    letter-spacing: 0.25em;
+}
+h2{
+	font-family : "Lucida sans-serif";
+	font-size : 18pt;
+	text-align :left;
+	text-decoration : underline;
+	color : #A4A400 ;
+	background-color : #F0F0F0;
+    letter-spacing: 0.25em;
+}
+p{
+	font-family : "Georgia";
+}
+p.strike span{
+	text-decoration:line-through;
+}
+
+abbr{
+	text-decoration : none;
+}
+li{
+	font-family : "Georgia";
+}
+pre.quote{
+    font-style: italic;
+    background-color: #FFFFA8;
+}
+.validation{
+    float: right;
+}
+.copyright{
+    clear: both;;
+    float: right;
+
+}
