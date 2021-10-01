@@ -69,3 +69,23 @@ footer{
     text-align: center; 
     background-color:#2F4F4F ;
 }
+
+@media screen and ( max-width : 600px ) {
+    section{
+        flex-wrap: wrap;
+    }
+    section div:first-child, section div:last-child{
+        width: 50%; 
+    }
+    section div:nth-child(2){
+        width: 100%; 
+        order: 3; 
+        padding: 2%;
+    }
+    header{
+        padding: 2%;
+    }
+    footer{
+        padding: 4%;
+    }
+}
