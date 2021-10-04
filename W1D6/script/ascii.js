@@ -6,7 +6,6 @@ window.onload = function() {
     var animationArray = null;
     var interval = null;
     var speed = 250;
-    var ANIMATIONS = [];
     var start = document.getElementById('start');
     var stop = document.getElementById('stop');
     var animation = document.getElementById('animation');
