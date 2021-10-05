@@ -1,7 +1,7 @@
 body{
-     background-color: lightseagreen;
      font-family : "Trebuchet MS";
      font-size : 20px;
+	 color : lightseagreen;
 }
  p, h1, h2{
      margin: 0;
@@ -29,6 +29,6 @@ body{
     background-image: url("https://ssty.github.io/W1D2/image/pie_icon.gif"); background-repeat: no-repeat;
     list-style: none; padding-left: 3%;
 }
-ul.li {
+ul>li {
     list-style-type: none;
 }
