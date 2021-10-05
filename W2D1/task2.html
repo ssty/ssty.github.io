@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="js/task2.js"></script>
+    <title>Task 2</title>
+</head>
+<body>
+
+    <div class="container">
+
+        <div class="col-sm-4"></div>
+        <div class="col-sm-4">
+            <h2>Web Form</h2>
+            <form action="post" id="loginForm">
+                <div class="form-group">
+                    <label for="loginEmail">Email address</label>
+                    <input type="email" class="form-control" id="loginEmail" placeholder="Enter email" name="email" required>
+                    <span class="w-100" style="opacity: 50%;">We'll never share you email with anyone else</small>
+                </div>
+                <div class="form-group">
+                    <label for="loginPwd">Password</label>
+                    <input type="password" class="form-control" id="loginPwd" placeholder="Enter password" name="pwd" pattern="(?=\d+)(?=[A-Z]*)(?=[a-z]*).{10,}">
+                </div>
+                <div class="checkbox">
+                    <label><input type="checkbox" name="remember"> Check me out</label>
+                </div>
+                <div class="form-group">
+                    <input id="loginUrl" type="url" class="form-control" title="Please enter a url" name="website" placeholder="Enter a URL" required pattern="https?://.+"/>
+                </div>
+                <button id="loginBtn" type="submit" class="btn btn-primary">Submit</button>
+                
+            </form>
+            
+        </div>
+        
+    </div>
+    </div>
+
+</body>
+
+</html>
