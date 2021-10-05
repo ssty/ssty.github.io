@@ -1,11 +1,16 @@
 body{
      font-family : "Trebuchet MS";
      font-size : 20px;
-	 color : lightseagreen;
+	 background-color : lightseagreen;
 }
  p, h1, h2{
      margin: 0;
      padding: 0;
+}
+.cover {
+    background-image: url(https://ssty.github.io/image/DSC_0047_1.JPG);
+    background-size: cover;
+    background-repeat: no-repeat
 }
  #circle {
      background-position: center;
@@ -17,7 +22,8 @@ body{
      background-repeat: no-repeat;
      background-size: cover;
      background-image: url('https://ssty.github.io/image/DSC_0047_1.JPG');
-     display: flex;
+	 width: 100%;
+	 height: 350px;
      padding : 2%;
      padding-left: 2%;
 }
@@ -27,8 +33,16 @@ body{
 }
 .ingredients ul li{
     background-image: url("https://ssty.github.io/W1D2/image/pie_icon.gif"); background-repeat: no-repeat;
-    list-style: none; padding-left: 3%;
+    list-style: none; 
+	padding-left: 3%;
 }
 ul>li {
     list-style-type: none;
+}
+li:hover {
+  margin-left: 10px;    
+  transition: margin-left .5s;
+  -moz-transition: margin-left .5s; /* Firefox 4 */
+  -webkit-transition: margin-left .5s; /* Safari and Chrome */
+  -o-transition: margin-left .5s; /* Opera */
 }
