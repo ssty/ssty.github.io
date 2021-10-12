@@ -6,25 +6,38 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/mocha/3.2.0/mocha.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/chai/3.5.0/chai.js"></script>
-    <script>
-        // initialize mocha
-        mocha.setup('bdd');
-        // chai has a lot of stuff, let's make assert global
-        let assert = chai.assert;
+    <style>
+        div{
+            border: 1px solid black;
+        }
+        #b{
+            position: static;
+            margin: 100px;
+        }
+        #d{
+            position: absolute;
+        }
 
-    </script>
-
-    <script src="script/code.js"></script>
-    <script src="script/tests.js"></script>
+        
+      
+    </style>
 </head>
 
 <body>
-    <div id="mocha"><ul id="mocha-stats"><li class="progress"><canvas width="40" height="40"></canvas></li><li class="passes"><a href="javascript:void(0);">passes:</a> <em>0</em></li><li class="failures"><a href="javascript:void(0);">failures:</a> <em>0</em></li><li class="duration">duration: <em>0</em>s</li></ul><ul id="mocha-report"></ul></div>
-    <script>
-        mocha.run();
-
-    </script>
+    <div id="a">A
+        <div id="b">B
+            <div id="c">C#d{
+                position: relative;
+                top: 250px;
+                left: 250px;
+            }</div>
+        </div>
+        <div id="d">D
+            position: absolute;
+        </div>
+    </div>
 
 
 
 </body></html>
+
