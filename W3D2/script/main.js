@@ -42,18 +42,18 @@ $(document).ready(function(){
         });
     });
 
-    $(document).on('mouseover', 'div', function () {
+    $(document).on('mouseover', 'div', function(){
         let currentDiv = $(this);
         opacityTimer = setInterval(() => {
-            if (parseInt(currentDiv.css("opacity")) > 0)
-                currentDiv.css("opacity", (parseInt(currentDiv.css("opacity")) - 0.01)
+            if(parseFloat(currentDiv.css("opacity")) > 0)
+            currentDiv.css(
+                    "opacity", (parseFloat(currentDiv.css("opacity")) - 0.01)
                 );
         }, 10);
-    })
-
-    $(document).on('mouseout', 'div', function() {
+    });
+    $(document).on('mouseout', 'div', function(){
         $(this).css("opacity", 1);
         clearInterval(opacityTimer);
     });
-
+   
 });
