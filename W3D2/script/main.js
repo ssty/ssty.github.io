@@ -40,6 +40,8 @@ $(document).ready(function(){
         $('div').click(function(){
             $(this).remove();
         });
+
+        
     });
 
     $(document).on('mouseover', 'div', function(){
